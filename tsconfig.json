@@ -10,6 +10,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
+      "reactHooks": ["./packages/hooks/src/index.ts"],
       "encodeHooks": ["./packages/hooks/src/index.ts"],
       "encode-hooks": ["./packages/hooks/src/index.ts"],
       "encodeHooks/lib/*": ["./packages/hooks/src/*"],

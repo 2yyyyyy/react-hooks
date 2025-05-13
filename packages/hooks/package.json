@@ -1,7 +1,7 @@
 {
-  "name": "encode-hooks",
+  "name": "react-hooks",
   "version": "0.0.1",
-  "description": "印客学院 React 业务 Hooks",
+  "description": "React Hooks",
   "keywords": [
     "encode",
     "react",

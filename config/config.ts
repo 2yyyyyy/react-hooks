@@ -29,6 +29,7 @@ export default {
   hash: true,
   alias: {
     encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    reactHooks: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],

@@ -20,9 +20,9 @@ footer: Copyright (c) © 2025 by studio, All Rights Reserved
 ## 📦 安装
 
 ```bash
-$ pnpm install --save encode-hooks
+$ pnpm install --save react-hooks
 # or
-$ yarn add encode-hooks
+$ yarn add react-hooks
 ```
 
 ## 🔨 使用
