@@ -8,6 +8,7 @@ export default {
     type: 'none',
     exclude: [],
   },
+  publicPath: '/react-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
