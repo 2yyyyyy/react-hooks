@@ -1,4 +1,4 @@
-import { isFunction } from "lodash-es";
+import { isFunction } from "../utils";
 import isDev from "../utils/isDev"
 import useLatest from "../useLatest";
 import { useEffect } from "react";

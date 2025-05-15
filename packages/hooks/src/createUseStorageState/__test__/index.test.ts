@@ -1,6 +1,6 @@
 import { act, renderHook } from '@testing-library/react';
 import type { Options } from '../index';
-import { createUseStorageState } from '../index';
+import createUseStorageState from '../index';
 
 class TestStorage implements Storage {
   [name: string]: any;

@@ -17,16 +17,16 @@ footer: Copyright (c) © 2025 by studio, All Rights Reserved
 - 完善的文档能力：支持文档记录，支持 demo 演示
 - 完整的测试用例：配套完整的测试用例，帮助您提升项目健壮性
 
-## 📦 安装
+<!-- ## 📦 安装
 
 ```bash
 $ pnpm install --save react-hooks
 # or
 $ yarn add react-hooks
-```
+``` -->
 
-## 🔨 使用
+<!-- ## 🔨 使用
 
 ```ts
 import { useToggle } from 'encode-hooks';
-```
+``` -->
