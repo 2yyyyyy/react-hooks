@@ -19,9 +19,10 @@ import useMemoizedFn from './useMemoizedFn';
 import useUnmountedRef from './useUnmountedRef';
 import useSafeState from './useSafeState';
 import useSetState from './useSetState';
+import useClickAway from './useClickAway';
 
 export { useToggle, useBoolean, useCookieState,useLatest, useUnmount, 
     useDebounceFn, useDebounce, useThrottleFn, useThrottle, useGetState,
     useUpdateEffect, useLocalStorageState, useSessionStorageState, useMap,
     useSet, usePrevious, useResetState, useMemoizedFn, useUnmountedRef, 
-    useSafeState, useSetState };
+    useSafeState, useSetState, useClickAway };
