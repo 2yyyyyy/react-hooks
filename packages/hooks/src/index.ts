@@ -38,6 +38,9 @@ import useResponsive, {configResponsive} from './useResponsive';
 import useScroll from './useScroll';
 import useSize from './useSize';
 import useTitle from './useTitle';
+import useUpdate from './useUpdate';
+import useCreation from './useCreation';
+import useRequest, { clearCache } from './useRequest';
 
 export { useToggle, useBoolean, useCookieState,useLatest, useUnmount, 
     useDebounceFn, useDebounce, useThrottleFn, useThrottle, useGetState,
@@ -46,4 +49,4 @@ export { useToggle, useBoolean, useCookieState,useLatest, useUnmount,
     useSafeState, useSetState, useClickAway, useEventListener, useDocumentVisibility,
     useMount, useDrag, useDrop, useEventTarget, useFullscreen, useHover, useInViewport,
     useLongPress, useRafState, useMouse, useKeyPress, useMutationObserver, useResponsive, 
-    configResponsive, useScroll, useSize, useTitle };
+    configResponsive, useScroll, useSize, useTitle, useUpdate, useCreation, useRequest, clearCache };

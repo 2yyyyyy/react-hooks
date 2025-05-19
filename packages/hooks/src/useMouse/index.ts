@@ -33,7 +33,7 @@ const initState: CursorState = {
   elementPosY: NaN,
 };
 
-export default (target?: BasicTarget) => {
+const useMouse =  (target?: BasicTarget) => {
   const [state, setState] = useRafState(initState);
 
   useEventListener(
@@ -74,3 +74,5 @@ export default (target?: BasicTarget) => {
 
   return state;
 };
+
+export default useMouse;

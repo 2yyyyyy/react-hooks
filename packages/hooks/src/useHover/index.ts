@@ -8,7 +8,7 @@ export interface Options {
   onChange?: (isHovering: boolean) => void;
 }
 
-export default (target: BasicTarget, options?: Options): boolean => {
+const useHover =  (target: BasicTarget, options?: Options): boolean => {
   const { onEnter, onLeave, onChange } = options || {};
 
   const [state, { setTrue, setFalse }] = useBoolean(false);
@@ -39,3 +39,5 @@ export default (target: BasicTarget, options?: Options): boolean => {
 
   return state;
 };
+
+export default useHover;

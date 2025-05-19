@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "React Hooks",
   "keywords": [
-    "encode",
     "react",
     "hooks"
   ],
@@ -12,7 +11,7 @@
   "types": "./lib/index.d.ts",
   "unpkg": "dist/encodeHooks.js",
   "sideEffects": false,
-  "authors": "pkl",
+  "authors": "pkl12y",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

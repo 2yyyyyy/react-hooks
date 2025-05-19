@@ -24,7 +24,7 @@
     "react",
     "hooks"
   ],
-  "author": "chenghuai",
+  "author": "pkl12y",
   "license": "ISC",
   "devDependencies": {
     "@ant-design/icons": "^5.0.1",
