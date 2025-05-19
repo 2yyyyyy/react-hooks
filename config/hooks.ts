@@ -1,7 +1,7 @@
 export const menus = [
   {
     title: '生命周期',
-    children: ['useUnmount', 'useUnmountedRef'],
+    children: ['useUnmount', 'useUnmountedRef', 'useMount'],
   },
   {
     title: '状态',
@@ -23,8 +23,25 @@ export const menus = [
     ],
   },
   {
-    title: 'Dom',
-    children: ['useClickAway'],
+    title: 'DOM',
+    children: [
+      'useClickAway',
+      'useDocumentVisibility',
+      'useDrop',
+      'useEventListener',
+      'useEventTarget',
+      'useFullscreen',
+      'useHover',
+      'useInViewport',
+      'useLongPress',
+      'useMouse',
+      'useKeyPress',
+      'useMutationObserver',
+      'useResponsive',
+      'useScroll',
+      'useSize',
+      'useTitle',
+    ],
   },
   {
     title: 'Effect',
