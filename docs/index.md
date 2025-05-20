@@ -28,5 +28,5 @@ $ yarn add pkl12y-hooks
 ## 🔨 使用
 
 ```ts
-import { useToggle } from 'encode-hooks';
+import { useToggle } from 'pkl12y-hooks';
 ```
