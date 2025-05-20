@@ -86,7 +86,7 @@ interface CachedData<TData, TParams> {
 ### clearCache
 
 ```tsx | pure
-import { clearCache } from 'encode-hooks';
+import { clearCache } from 'reactHooks';
 
 clearCache(cacheKey?: string | string[]);
 ```
